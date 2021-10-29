@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="compteurclik.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="compteurclik.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <title>Compteur Clique</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    </head>
+    <body>
+        <div id="main">
+            <section id="head">
+                <div class="flex">
+                    <div class="titre"><a href="home.html" style="text-decoration: none;"><h1 class="titre-joyca">Clikeur.com🖱️</h1></a></div>
+                    <div>  
+                        <ul class="nav">
+                            <li class="menu-deroulant"><a href="compteurespace.html" style="text-decoration: none;">Test de barre espace</a></li>
+                            <li class="menu-deroulant"><a href="compteurclik.html" style="text-decoration: none;">Test de cliques</a></li>
+                        </ul> 
+                    </div> 
+                </div>
+            </section>
+            <section id="home">
+                <div class="flex">
+                    <img class="gris" src="image/gris.png" alt="">
+                    <div>
+                        <h2 class="titrecpt">Compteur de barre espace en ligne</h2>
+                        <h3 class="titre2cpt">Vous voulez compter quelque chose ? Utilisez ce simple compteur de barre espace 👇</h3>
+                        <div>
+                                <div id="rps"><b id='nb'>ici</b></div> 
+                                <input class="cptbtn" type="button" onclick="compteur()" value=" " />
+                                <button id="reset" onclick="window.location.href = 'compteurclik.html';">reset</button>
+                            <h4 class="titre2cpt" style="text-align: center;">Cliquez un fois sur le rectangle bleu et ensuite appuyer sur espace!</h4>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+        </div>    
+        <section id="footer">
+            <p>texte du footer</p>
+        </section>
+    </body>
+</html>

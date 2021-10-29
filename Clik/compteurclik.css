@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    height: 100%;
+}
+#head{
+    background-color: white;
+    height: 94px;
+    width: 100%;
+    position:fixed;
+    box-shadow:10px 10px 10px 0px rgb(194, 194, 194);
+}
+@font-face {
+    font-family: logo_font;
+    src: url('Anton.ttf');
+}
+#head .logo img{
+    width: 12%;
+    margin-left: 5%;
+    padding-right: 0px;
+}
+#head .titre{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+#head .titre h1{
+    font-size: 240%;
+    color: black;
+}
+#head .flex{
+    display: flex;
+}
+#center{
+    padding: 100%;
+}
+#head li{
+    list-style: none;
+}
+#head li a{
+    color: black;
+}
+#head .nav{
+    display: inline-block;
+    margin-top: 2.5%;
+    text-align: center;
+    margin-left: 10%;
+    width: 100%;
+}
+#head .nav li{
+    display: inline;
+    margin-top: 55px;
+    margin-left: 2em;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#head .nav li:hover{
+    color: black;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/*- - - - - section home - - - - -*/
+
+#home .gris{
+    width: 100%;
+    margin-top: 90px;
+    height: 50px;
+}
+#home .titrecpt{
+    font-size: 2.5rem;
+    margin-left:13%;
+    font-family: Rubik,Tahoma,Arial,Sans-Serif;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1%;
+}
+#home .titre2cpt{
+    font-size: 1.5rem;
+    margin-left:13%;
+    font-family: Rubik,Tahoma,Arial,Sans-Serif;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1%;
+    margin-right:13%;
+}
+#home .cptclics{
+    background-color: rgb(218, 218, 218);
+    padding-top: 3em;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding-bottom: 3em;
+}
+#home .cptbtn{
+    background-color: #007bff;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    float: left;
+    height: 150px;
+    margin-bottom: 5em;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+#home .cptbtn2{
+    background-color: #007bff;
+    width: 45%;
+    margin-right: 4%;
+    float: right;
+    height: 150px;
+    margin-bottom: 5em;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+#rps{
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    margin-bottom: 0.5em;
+}
+#nb{
+    color: black;
+    font-size: 60px;
+}
+#reset {
+    margin: 10px auto 0;
+    border-radius: 0;
+    background-color: #f0f0f0;
+    max-width: 300px;
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+#reset:hover {
+    background-color: #e6304a;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#reset, #reset-settings, #stop {
+    color: #e6304a;
+    box-shadow: inset 0 0 0 0.25rem #e6304a;
+    border: none;
+    display: block;
+    width: 20%;
+    height: 3em;
+}
+
+/*- - - - - section footer - - - - -*/
+ #footer {
+    display: flex;
+    position:absolute;
+    background-color:black ;
+    margin-bottom:0;  /* on le colle en bas */
+    width:100%;
+    height:100px;   /* Hauteur du pied de page */
+}

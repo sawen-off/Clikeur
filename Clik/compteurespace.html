@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="compteurespace.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="compteurespace.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <title>Compteur Espace</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    </head>
+    <body>
+        <div id="main">
+            <section id="head">
+                <div class="flex">
+                    <div class="titre"><a href="home.html" style="text-decoration: none;"><h1 class="titre-joyca">Clikeur.com🖱️</h1></a></div>
+                    <div>  
+                        <ul class="nav">
+                            <li class="menu-deroulant"><a href="compteurespace.html" style="text-decoration: none;">Test de barre espace</a></li>
+                            <li class="menu-deroulant"><a href="compteurclik.html" style="text-decoration: none;">Test de cliques</a></li>
+                        </ul> 
+                    </div> 
+                </div>
+            </section>
+            <section id="home">
+                <div class="flex">
+                    <img class="gris" src="image/gris.png" alt="">
+                    <div>
+                        <h2 class="titrecpt">Compteur de Clics en ligne</h2>
+                        <h3 class="titre2cpt">Vous voulez compter quelque chose ? Utilisez ce simple compteur de clics 👇</h3>
+                        <div>
+                                <div id="rps"><b id='nb'>ici</b></div> 
+                                <input class="cptbtn" type="button" onclick="compteur()" value=" " />
+                                <script type="text/javascript"> 
+                                    var x=0 
+                                    function compteur() 
+                                    { 
+                                    x = x-1; 
+                                    document.getElementById('nb').innerHTML = x; 
+                                    } 
+                                </script>
+                                <input class="cptbtn2" type="button" onclick="compteur()" value="-1" />
+                                <button id="reset" onclick="window.location.href = 'compteurespace.html';">reset</button>
+                            <h4 class="titre2cpt">Cliquez sur la case de droite et de qauche pour compter quelque chose!<br>(droite ="+" ; gauche="-")</h4>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+        </div>    
+        <section id="footer">
+            <p>texte du footer</p>
+        </section>
+    </body>
+</html>
